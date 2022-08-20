@@ -34,7 +34,7 @@ target "image" {
  cache-to = ["type=inline"]
  labels = {
    "org.opencontainers.image.title"= "hello-world-buildx"
-   "org.opencontainers.image.ref" = "https://github.com/foo/myapp"
+   "org.opencontainers.image.ref" = "https://github.com/developer-guy/hello-world-buildx"
  }
  output = ["type=registry"]
 }
